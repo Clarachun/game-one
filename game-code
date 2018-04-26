@@ -1,0 +1,587 @@
+'''characters'''
+class character(object):
+    def __init__(self, name hair, age, powers, exProfession, profession, religon, choosing):
+        self.nm = name
+        self.hr = hair
+        self.ag = age
+        self.pwr = powers
+        self.eprof = exProfession
+        self.prof = profession
+        self.rel = religon
+        self.ch = ch
+    if self.ch in yesStr:
+        def characterProf(self):
+            print("\nyour name is " + self.nm + ".")
+            print("your hair is " + self.hr + ".")
+            print("you are " + self.ag + " years old.")
+            print("your are able to " + self.pwr + ".")
+            print("you used to be " + self.eprof + ".")
+            print("you are now a " + self.prof + ".")
+            print("you believe in " + self.rel + ".\n")
+    else
+        def characterProfTwo(self):
+            print("their name is " + self.nm + ".")
+            print("they are " + self.ag + " years old.")
+            print("they used to be " + self.eprof + ".")
+
+ara = character("black", "341", "kill", "elonandriano", "a pilot", "Ria")
+emmanuel = character("curly and black", "17", "hack anything", "a mechanic at a shady store", "a systems engineer", "the Abrahamic God")
+grey = character("blonde", "123", "steal anything", "a theif", "a thief ( still)", "nothing")
+calian = character("blue", "452", "control things with your mind", "a mechanic", "a mechanic", "Imon")
+vita = character("non existant", "1562", "control fire", "a full time rebel", "weapons manager", "no one")
+
+ozias = character("non existant", "1,253", "change your apperance", "an actor and heir", "a spy", "no one")
+lux = character("red, and made of metal", "593", "control magnetic impulses", "a hacker ", "a hacker", "Imon")
+win = character("black and made out of goo", "2134", "create stars", "a linguist", "a linguist", "no one")
+ione = character("gold", "2,934", "read minds", "a mercenary", "a drunk pyschologist", "the old religon")
+zee = character("purple", "923", "create things from written words", "a rebel against the eloandriano and a lawyer", "public relations manager", "Imon")
+eral = character("ginger", "787", "learn anything from seeing it done", "a doctor", "a doctor", "Imon")
+paz = character("curly and black", "2", "connect to systems ( a robot )", "an assistant to Eral", "ship assistant", "nothing")
+kehziah = character("braided", "301", "be gay +  control water", "a xenobiologist", "a xenobiologist", "Ria")
+ateren = character("long black, very fine feathers", "652", "fly", "a explosives engineer", "bomb technician", "Imon")
+atria = character("black", "1452", "manipulate emotions", "an engineer", "technology repairer", "afrenia")
+jiya = character("brown and soft", "1389", "see the future", "a sharpshooter ", "a sharpshooter", "afrenia")
+
+
+playableCharacterList = [ara, emmanuel, ro, grey, calian, vita]
+playableCharacterNames = ['ara', 'emmanuel', 'grey', 'calian','vita']
+npPlayableCharacterList = [ro, ozias, lux, win, ione, zee, calian, eral, paz, kehziah, ateren, atria, jiya]
+npCharacterNames = ['ro', 'ozias', 'lux', 'win', 'ione', 'zee','eral', 'paz', 'kehziah', 'ateren', 'atria','jiya']
+
+
+
+
+'''writing'''
+assistance = '''\n\ndo you need help? if so you've come to the right place!!! we offer 3
+different areas of help. type the sort of help you require!
+1. general help
+2. character help
+3. the story\n'''
+
+generalHelp = '''\n\ngeneral help
+--------------------
+most commands can be answered with yes or no, and if you seem to have answered it wrong, you
+can normally fix it with retyping it the right way! directions can be summed
+up into a simple thing of north (forward), south(backwards), west(left), and
+east(right) to get to most places. but there will be ocassions where going a
+certain direction requires you to type a specific thing.\n'''
+
+gameStP = '''\n\nyou are stadning. it is dark. and you are running. you don't remember anything.
+you don't know where you are. you don't know how you got here. you feel like
+you've been running forever. ahead you see a light in front of you. it's a
+beautiful do you go to it?\n'''
+
+clubBnftOne = '''\n\nyou stand outside, water soaks your hair. you've entered the light, and the
+world begins to rush back to you, you remeber who you are and why you're here.
+you've been looking for this place all night. the infamous club benefit.\n'''
+
+clubBnft = '''\n\nyou enter the club, and the bright lights flash around you. shocking your eyes.\n'''
+
+apexOne = '''\n\nthe bright lights in the dark of the nighttime tug at the edges of your eyes,
+hurting your head. the rain drips onto you every once in a while. most of the
+buildings shield you from the rain. people laugh and there are couples kissing
+in the streets. you look around the neighborhood, searching for whomever you are
+here for. you see a bar to your right, and a boy smoking to your left. forward
+is a building which seems oddly familiar.\n'''
+
+tenBuildOne = '''\n\nyou walk towards the the apartment building, entranced by your deja vu
+and the feeling that you've been there before. you head towards the building
+and stop at the steps of the tennement building, lifting your chin up as if to
+meet the rain. and you remeber. you live here. this is your home. you walk up
+to the stairs and punch in your numbers, and the door beeps as you step into
+the building. there's a coupe making out in the corner of your eye, and you
+quickly walk past them out of respect, lowering your head. this building is dim
+and dark. you wonder when was the last time you came here. you don't remember.
+you don't remember a lot of things.'''
+
+boyOne = '''\n\nyour feet hit the ground as you walk towards the boy, giving a bright, and
+clever looking smile at him. he doesn't look up.\n
+' hey.' you say, and he glances up at you and almost seems to glare through
+your skull.\n
+'hi.' he replies. his hair is a made out of soft black feathers that almost
+looks like hair. it catches you by surprise. he's not human. here, on
+pontusdam, that's unusual.\n
+'what's your name?' you ask. and he glances up breifly, raising an eyebrow
+at, you wonder if he'll lie or not. you think he might.\n
+'lewis.' his tone is uncomfortable as he says this. 'you?'''
+
+boyOneP2 = '''
+'we've been looking for you all night.' he begins, and pulls the cigarette
+out of his mouth with a laugh. 'after you went missing last night we were
+worried.' he shrugs and laughs again. that laugh is so familiar, and
+something about it rubs your the wrong way.'''
+
+boyOneP3 = '''\nyour facial features softly contort into that of passive staring, as his
+own garner a look of anger and sadness. passing between the two as if he
+was feeling both at the very same time. he simply sighs and rubs the bridge
+of his nose, before grabbing you by the wrist.\n'''
+
+boyOneP4 = ''' 'let's go.' He begins to tug at your wrist. it hurts. and preceeds to 
+drag you along with him. 'fuck. of course you pull this shit on us. of
+fucking course.' he pulls the cigarette out of his mouth and tosses it
+onto the ground, as he turns around and begins to tug you along you notice
+the bulges in the back of his shirt, a mishapen lumpen luck that makes
+you frown lightly.'''
+
+boyOneP5 = '''he tugs you along still and you don't know what's going on. he leads you
+through the maze like streets. right left right left right left. jump
+jump. stairs. right left. it's a mixed up feeling in your mind before
+you stop in front of a beautiful door with a beautiful boy with soft
+brown hair and a smile that makes you want to smile.'''
+
+boyOneP6 = ''' "hi ateren. hi..." he stops and looks straight at you, his face
+contorts into a sense of worry of his own, before bursting forward and
+hugging you tight. 'we thought you were dead in some toilet room or
+something' he mutters into your ear.'''
+
+boyOneP7 = '''ateren takes a step forward and taps the shoulder of the boy with the
+soft brown hair who steps back, and whispers something into his ear.
+you know they're talking about you. how you should remember something,
+and yet your mind is as blank as that of a newborn babies.'''
+
+boyOneP8 = '''tabula rasa. the term floats to your mind. you push it aside.\n
+'oh. sorry.' he says, and extends his hand. his skin almost shimmers
+under the light like it's not made for this sun.\n
+you take it in your own and shake it. 'hi. i'm...' he pauses you as you
+speak and simply says.'''
+
+boyOneP9 = ''' 'we've met already.' before looking to ateren, and suddenly you're
+nameless again. 'you're back early ateren. you were supposed to grab
+us dinner.' he frowns. ateren just shrugs.\n '''
+
+boyOneP10A = ''' 'i was checking out if she'd stopped by her apartment anytime soon.' that
+catches you by surprise. your apartment. you didn't know you if had one
+of those. that's weird. you think you'd know if you had one of those.\n
+'was ro there?' brown haired tilts his head. ateren shakes his head. 'she
+seems to be gone.' '''
+
+boyOneP10E = ''' 'i was. until i saw emmanuel here. give me a break. i got your favourite.
+the boy huffs, and tosses a bag full of something that somehow smells
+disgusting and yet delicious at the other boy.\n
+'where'd you find her?' he asks, pulling out something and beginning to
+chew on it happily.\n
+'i didn't. she found me.' the other one nods. it's written over his face.
+he's thinking clever girl. that somehow feels like an insult. you're better
+than clever. right?'''
+
+boyOneP10G = ''' 'did't feel like it.' he shrugs, and you look around briefly. softly confused.
+'anyways. grey here found me and i figured that's more urgent than your black
+hole that you bother to call a stomach.' the other one rolls his eyes again
+and looks back at you. 'you don't mind. do you grey?' you have no idea what
+exactly he's asking of you.'''
+
+boyOneP10C = ''' '''
+boyOneP10V = ''' '''
+
+protestAteren = ''' you begin to fight back. kicking and hitting the best that you can. and
+for  moment you think you might be winning. you seem surprisingly good at
+kicking, and somehow that provides you with consolation. you're not inept?
+you guess? you might be still, and it might be that you're just good at
+kicking.\n
+either way, in the end you loose. he hits you on the side of the head, and
+soon you're falling down. all the way to the ground. like alice in the rabbit
+hole.'''
+
+proAtWake = """you wake up in a strange bed that you do not recognise. your head hurts. a lot.
+you remember fighting against the stranger, a person you don't remember at all.
+except for the one time you two met."""
+
+protestAgain = """you push him away softly. 'no thank you,' you mutter under your breath in
+reply. hugging makes you oddly uncomfortable. he lets go hesitantly and stares
+at you in confusion.\n
+'are you alright?' he asks. and you just simply smile."""
+
+apartment = """'umm... what apartment?' you ask, and jiya looks at your quickly.\n
+'yours.' jiya says in reply, and pats that beautiful looking hair. 'it's where
+you live when you don't want to be here.' he says in reply. 'you bought it a bit
+back... you figured if we were living here this long you might as well have a...
+uh... actual place to live.' he offers up a smile to you, and you nod. wondering
+how long you've been living here."""
+
+openDoor = """the door opens up to the reveal another person with soft brown hair. but this one is
+different. less... scary looking? and they almost seem nicer. trying to tell their
+gender is a nearly impossible thing. you wonder a little if they have one.\n
+'you're awake.' they mutter. and you nod, slowly but surely. 'good. get dressed.' they
+walk over to something you presume to be a closet, and open it up, pulling out a small
+black square and tossing it at you with a pointed stare. you fumble for a bit before
+catching it, and frowning at it. turning it over in your hands. you don't know
+what this is."""
+
+blkSqr = """'what is this?' you ask. \n
+the brown haired one stares in disbelief. 'clothing dipshit. ria. you really can't remember
+shit. can you?' you shake your head in reply, and they bury their head in one hand 'okay then.'
+they mutter from their hands. 'we're going to show you how to get dressed.' they sigh and walk
+over. they lift up your hair, you try to yank away, they yank you back, before patting a square
+on the back of your neck that you really hadn't felt before. they pull out something already
+there and hand it to you.\n
+it's another black square, and suddenly you have on no clothes. they grab the other one from
+your palm and push it into that hole in the back of your neck, and the clothes are back. you
+gawp at the feeling and sight of all of this.\n
+'there we go.' they mutter. before taking a glance at you. 'we have to get going now. we're
+all meeting up. even you.'"""
+
+fiddling = """ you nod. and take it into your hands, beginning to fiddle around with it. you have no idea
+what it does. that was a lie. and not a very smart one. finally you give up with a sigh."""
+
+dragged = """they grab you by the arm, and begin to pull you along the messy hallways. questions flood your
+mind. 'where are we going?' you hesitantly ask.\n
+'everyone's meeting in the mess. including you.' you nod. you don't know what's meant by
+that. you don't know if you want to. you can't help but wonder what they're meeting about
+this seems oddly urgent, and yet you have no idea what the urgency is about. so what use
+would you be?\n
+the two of you finally reach what you think is the mess, and you're sat down in a chair
+and left to look around. other people sit around you, all varying in hair colour, apperance
+and a thousand other tiny things."""
+
+lookAroundA = """you swing your legs over the bed and climb out looking around the room, you see
+knick-knacks placed around it spordically. you see a pretty coloured sharp looking
+thing that almost looks like a knife. at another point in the room there's a plant,
+nd in another corner there's a red robe laying on a chair."""
+
+messHallA = """'so.' a brunette takes the stage. short haired and somewhat pretty. 'in case any of you might've
+noticed we have our lovely captain back with us, and before you shower her with hugs and
+kisses and all the love in the world, i'm going to remind you, she doesn't remember a thing.'
+at this point hiding seems like a good ide. 'but at 9 yesterday ara here went missing. so now
+we have a mission. find out where the fuck she went, and whatever the fuck happened. alright?
+alright. you cna hug and kiss her now."""
+
+lookAroundE = """you pop up and out of your bed. tossing your legs over the edge of the bed and looking around
+                the room. it's a pretty, comfortable, looking place. too too messy with small mountains of clothes
+                placed around the room in a serious sense of disorganisation. there's a computer with a
+                flashing screen in one corner of a room, something etching itself across the screen. and in
+                another corner of the room there's a smaller device italic and lovely looking, and finally you
+                see what looks like a weapon in the final corner of the room."""
+
+messHallA = """'so.' a brunette takes the stage. short haired and somewhat pretty. 'in case any of you might've
+noticed we have our lovely captain back with us, and before you shower her with hugs and
+kisses and all the love in the world, i'm going to remind you, she doesn't remember a thing.'
+at this point hiding seems like a good ide. 'but at 9 yesterday ara here went missing. so now
+we have a mission. find out where the fuck she went, and whatever the fuck happened. alright?
+alright. you cna hug and kiss her now."""
+
+'''game controls'''
+yesStr = ['yes', 'Yes', 'y', 'Y']
+noStr = ['no','No','n','N']
+fwdStr = ['forwards','forward','north','Forward','Forwards','North','walk forward', 'Walk Forward', 'walk Forward', 'Walk forward','go forward', 'Go forward',
+          'Go Forward', 'go Foward', 'go forwards', 'Go Forwards', 'go Forwards', 'Go forwards', 'walk north', 'walk North', 'Walk North', 'Walk north',
+          'go north', 'go North', 'Go North', 'Go north']
+
+bckStr = ['backward','backwards','south','Backward', 'Backwards','South','walk backward', 'Walk Backward', 'walk Backward', 'Walk backward','go backward',
+          'Go backward', 'Go Backward', 'go Backward', 'go backwards', 'Go Backwards', 'go Backwards', 'Go backwards', 'walk south', 'walk South',
+          'Walk South', 'Walk south','go south', 'go South', 'Go South', 'Go south','back','go back']
+
+wstStr = ['left','west','Left', 'West','walk left', 'Walk Left', 'walk Left', 'Walk left','go left',
+          'Go left', 'Go Left', 'go Left','walk west', 'walk West',
+          'Walk West', 'Walk west','go west', 'go West', 'Go West', 'Go west']
+
+estStr = ['right','East', 'Right', 'east', 'walk right', 'Walk Right', 'walk Right', 'Walk right','go right',
+          'Go right', 'Go Right', 'go Right','walk east', 'walk East',
+          'Walk East', 'Walk east','go east', 'go East', 'Go South', 'Go east']
+protest = ['speak up', 'kick', 'protest', 'protest shit']
+
+ask = ['ask', 'ask a question', 'question']
+
+staySilent = ["don't talk", 'stay silent', 'quiet', 'peace', 'peace and quiet']
+
+ro = ["you ask about ro", "i ask about ro", "ask about ro", "ro", "who's ro?", "who's ro", "whos ro"]
+
+inventory = []
+
+'''game functions'''
+def helpCode():
+    if raw_input in ['help','Help','HELP', 'help!','Help!', 'HELP!']:
+        print assistance
+        helpQ = raw_input()
+        if helpQ == 'general help':
+            print generalHelp
+        if helpQ == 'character help':
+            print characterHelp
+        if helpQ == 'the story':
+            print storyNavigation
+            
+def apexBoyLeftOne():
+    print boyOne
+    nameIntro = raw_input("do you introduce yourself or not?n")
+    if nameIntro in yesStr:
+        print ("i'm " + chName + ". you lift your chin he almost seems to laugh at this. \nyou don't understand what's so funny.\n")
+        print("'good to finally find you " + chName + ".' he smiles, and it catches you off \nguard. his smile is like that of a feral cat.")
+        aterenDipShit()
+    if nameIntro in noStr:
+        print("you smile and nod. staying silent. and he raises an eyebrow. 'no name?' he asks.'")
+        questionN = raw_input("do you answer now? ")
+        if questionN in yesStr:
+            print("'ara'")
+            change = """ 'i can't believe you fell for that.' he laughs. and he presses a button. his features change,
+                            but the colouring stays the same. his nose becomming sharper and his lips thinner. it's an
+                            odd sight to look at. you don't know who he is. but apprently you're supposed to.
+                            \nhe raises an eyebrow at you. 'ara. stop looking like a blanket sheet. you look like you
+                            don't even know me.' he laughed, and you think you must've known each other at sometime or
+                            another. even if you don't now."""
+            print change
+        if questionN in noStr:
+            no = """you shake your head. and he sighs, before tapping a button and his features rapidly
+                    changing into something odd and beautiful. 'i can't believe you fell for that.' he
+                    grinned with a short laugh. 'you're ridiculous ara.' and he shakes his head. you don't
+                    though. you don't recognise him. but he somehow knows your name. you bite your lip."""
+        asking = raw_input("do you ask him how he knows your name?")
+        if asking in yesStr:
+            name= """'how do you know my name?' you ask. and he frowns. what you think might be eyebrows
+                    on his odd face, turning curious. 'shit. you don't remember a thing do you.'"""
+            print name
+        if asking in noStr:
+            nodding = """you nod your head. smiling and warm. pretty and glad looking. 'how foolish of
+                          me.' you slowly drawl and he smiles, his eyes narrowing a little.\n
+                         'you're just being weird.' he says. and you roll your eyes exasperated. and his
+                         eyes narrow further. frowning before saying with resolution. 'you've forgotten.'"""
+    raw_input()
+    print boyOneP2
+    raw_input()
+
+def aterenDipShit():
+    if chName in ['emmanuel', 'grey', 'calian','vita']:
+        worriedNm = 'ara'
+    if chName == 'ara':
+        worriedNm = 'ro'
+    print (" 'well... " + worriedNm + "was worried about you actually.'\ndo you ask about them?")
+    worries = raw_input()
+    if worries in yesStr:
+        print("the bridge of your nose crinkles. 'who's " + worriedNm + "?' you ask.")
+        print ("his face contorts into shock.\n'who's ara? imon " +chName + ". " + worriedNm + "you dipshit. did you get crashed?'")
+    if worries in noStr:
+        print("'uh... cool. so sorry for not... uh.. being around.' you stutter out. he narrows his eyes.")
+        print("'shit.' he sighs.")
+
+def wingsQuestion():
+    wings = raw_input("ask? or don't ask?")
+    if wings in question:
+        print("curiosity overwhelms you, and you ask, 'what's wrong with yo...'");
+        print ("'shut the fuck up " + chName + ". we don't have time for that shit.' he mumbles. and it rumbles blue.")
+        loudness =+ 1
+        rudeness =+ 1
+        relationships = relationships -1
+    if wings in staySilent:
+        print("you decide to stay quiet. you don't want to appear rude.");
+        quietness =+ 1
+        relationships =+ 1
+
+def hugsQuestion():
+    hugs = raw_input("do you allow him to hug you?\n")
+    if hugs in staysilent:
+        print("you allow him to hug you.");
+        emotions(quietness, 1)
+        emotions(relationships, 4)
+    if hugs in protest:
+        print protestAgain
+        emotions(relationships, 1)
+        emotions(relationships, -3)
+        emotions(relationships, 1)
+        emotions(relationships, -1)
+
+def blackSqr():
+    print openDoor
+    blackSquare = raw_input("do you ask what it is?")
+    if blackSquare in yesStr:
+        print blkSqr
+    if blackSquare in noStr:
+        print fiddling
+        print blkSqr
+
+def getUpA():
+    getUp = raw_input("do you get up? or not?\n")
+    if getUp in yes:
+        print lookAroundA
+        grabbing = raw_input("do you grab the knife, walkover to the plant or look at the red robe?")
+        grabbing = grabbing.lower()
+        if grabbing in ['the knife','knife', 'i grab the knife']:
+            inventory.append(1, "knife")
+        if grabbing in ['the plant','plant', 'i walk over to the plant']:
+            print("you walk over to the plant and inspect it. there seems to be something glittering in it. you take it.")
+            print("it turns out to be necklace. you wonder why there's a necklace in a plant.")
+            inventory.append(1, "Io Necklace")
+        if grabbing in ['the red robe','red robe', 'i look at the red robe']:
+            print("you walk to the robe and look it it. it seems almost unreal. the fabric doesn't seem to")
+            print("be the same fabric that you're currently wearing. you touch it. it's like touching thin air.")
+            inventory.append(1,"red robe")
+    blackSqr()
+    print messHallA
+
+def getUpE():
+    getUp = raw_input("do you get up? or not?\n")
+    if getUp in yes:
+        print lookAround
+        grabbing = raw_input("do you go to the computer, walkover to the metalic device or grab the weapon?")
+        grabbing = grabbing.lower()
+        if grabbing in ['the weapon','weapon', 'i grab the weapon', 'i go to the weapon']:
+            inventory.append(1, "weapon")
+        if grabbing in ['the device','the metallic device','i go to the device', 'i walk over to the device']:
+            print("you walk over to the plant and inspect it. there seems to be something glittering in it. you take it.")
+            print("it turns out to be necklace. you wonder why there's a necklace in a plant.")
+            inventory.append(1, "Io Necklace")
+        if grabbing in ['the red robe','red robe', 'i look at the red robe']:
+            print("you walk to the robe and look it it. it seems almost unreal. the fabric doesn't seem to")
+            print("be the same fabric that you're currently wearing. you touch it. it's like touching thin air.")
+            inventory.append(1,"red robe")
+    blackSqr()
+    print messHallA
+
+
+def apexBoyLeftTwo():
+    raw_input()
+    print boyOneP3
+    idk = raw_input("do you fight? or stay silent?")
+    if idk in protest:
+        print protestAteren
+        print proAtWake
+        emotions(anger, 1)
+        emotions(fighting, 5)
+        emotions(protest, 5)
+        emotions(relationships,-1)
+        if chName == 'ara':
+            getUpA()
+        if chName == 'emmanuel':
+            print boyOneP10E
+        if chName == 'grey':
+            print boyOneP10G
+        if chName == 'calian':
+            print boyOneP10C
+        if  chName == 'vita':
+            print boyOneP10V
+    if idk in silent:
+        print boyOneP4
+        emotions(quietness, 1)
+        emotions(relationships, 1)
+        wingsQuestion()
+        raw_input()
+        print boyOneP5
+        raw_input()
+        print boyOneP6
+        hugsQuestion()
+        print boyOneP7
+        raw_input()
+        print boyOneP8
+        raw_input()
+        print boyOneP9
+        apexBoyLeftThree()
+    print dragged
+    if chName == 'ara':
+        print messHallA
+    if chName == 'emmanuel':
+        print boyOneP10E
+    if chName == 'grey':
+        print boyOneP10G
+    if chName == 'calian':
+        print boyOneP10C
+    if  chName == 'vita':
+        print boyOneP10V
+
+def messHalls():
+    if relationships < 50:
+        talking = raw_input("you look around and see everyone looking away. except for the softly brown\n person who introduced you. do you go talk to them?")
+        if talking in yesStr:
+            print walkover
+            walkover = """you walk over to the sandy brown haired person and wave you hand. 'hi.' you say. and they turn around.
+                        'oh. hi.' they say in response."""
+            ro_stats = raw_input("do you want to know who this person is?")
+            if ro_stats in yesStr:
+                character("ro", "brown", "367", "control fire", "the guard for the eloandriano", "risk manager for a spaceship", "Ria", "no")
+                print("memories rush by you, and you catch a couple of facts about them.")
+                print("'ro. right?' you ask. and they look at you surprised.")
+                print("'yeah. how did you know that?'")
+            else:
+                raw_input(" ")
+            emotions(kindness, 1)
+            emotions(relationships, 5)
+        if talking in noStr:
+            print("you look around. choosing to stay by yourself as someone approaches you. you smile the best you can.")
+            print("'hi.' you tensely say. 'how are you?'")
+            emotions(kindness, -1)
+            emotions(relationships, -5)
+
+class emotions(object):
+    def __init__(trait, number):
+        self.tr = trait
+        self.nm = number
+    def number(self):
+        self.tr = self.tr + self.nm
+
+def apexBoyLeftThree():
+    if chName == 'ara':
+        print boyOneP10A
+        question = raw_input("do you ask about the apartment?")
+        if question in yesStr:
+            print apartment
+        if question in noStr:
+            print("you stay silent. smiling and nodding your head. you have a thousand questions.")
+    if chName == 'emmanuel':
+        print boyOneP10E
+        cleverProtest = raw_input("do you indignantly speak up that you're better than clever?")
+        if cleverProtest in yesStr:
+            print("'i'm better than 'clever.' you start off by saying. and eyes turn to you.")
+            print("'hm?' one of them asks. you straighten you spine.")
+            print("'don't call me clever. i'm fucking brilliant.' you reply. his mouth quirks up and\n he laughs.")
+            print("'that's fucking right. you're brilliant.' he grins. 'that's ria fucking right.'")
+        if cleverProtest in noStr:
+            print("you smile. and wave breifly. you don't need to pick fights right now.")
+    if chName == 'grey':
+        print boyOneP10G
+    if chName == 'calian':
+        print boyOneP10C
+    if chName == 'vita':
+        print boyOneP10V
+
+def personalityCode():
+    kindness = 0
+    fighting = 0
+    anger = 0
+    protest = 0
+    humour = 0
+    quietness = 0
+    rudeness = 0
+    loudness = 0
+    relationships = 50
+    
+'''game code'''
+personalityCode()
+i = 0
+while (i <= 6):
+    helpCode()
+    chName = playableCharacterNames[i]
+    chAssign = playableCharacterList[i]
+
+    chQ = raw_input("are you " + chName + "? ")
+    helpCode()
+    if chQ in yesStr:
+        print chAssign.characterProf()
+    elif chQ in noStr:
+        i = i + 1
+        continue
+    else:
+        print("i'm sorry, i didn't understand that? try again.")
+        continue
+
+    stGame = raw_input("do you want to play a game? ")
+    helpCode()
+    '''ara gameplay'''
+    if stGame in yesStr:
+        print gameStP
+        liODrk = raw_input()
+
+        if liODrk in fwdStr:
+            print clubBnftOne
+            print clubBnft
+        if liODrk in bckStr:
+            print apexOne
+            apOne = raw_input("what do you do? ")
+            if apOne in fwdStr:
+                print tenBuildOne
+            if apOne in wstStr:
+                apexBoyLeftOne()
+                aterenDipShit()
+                apexBoyLeftTwo()
+                apexBoyLeftThree()
+                messHalls()
+            if apOne in estStr:
+                print("dipshit")
+    elif stGame in noStr:
+        quit
+        i = 0
